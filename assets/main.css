@@ -55,5 +55,57 @@ main .page-content > .wrapper > section.hero{background:linear-gradient(90deg,#e
   .hero h1{font-size:1.5rem}
 }
 
-/* Utility */
-.muted{color:var(--muted)}
+/* Portfolio design inspired layout styles */
+:root{--accent:#0b74de;--muted:#6b7280;--bg:#fbfbfb;--text:#0b1220}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial;line-height:1.6;color:var(--text);background:var(--bg)}
+.wrapper{max-width:1100px;margin:0 auto;padding:40px}
+
+/* Header: centered, minimalist */
+.site-header{background:linear-gradient(90deg, rgba(11,116,222,0.95) 0%, rgba(11,116,222,0.86) 45%, rgba(255,255,255,0) 100%);position:sticky;top:0;z-index:30}
+.site-header .wrapper{display:flex;align-items:center;justify-content:center;gap:24px;padding:20px 0}
+.site-title{font-family:Merriweather,Georgia,serif;font-weight:700;color:#fff;text-decoration:none;font-size:1.4rem;letter-spacing:0.4px}
+.site-nav .trigger{display:flex;gap:18px}
+.page-link{color:rgba(255,255,255,0.95);text-decoration:none;padding:8px 10px;border-radius:6px;font-weight:600}
+.page-link:hover{background:rgba(255,255,255,0.08)}
+
+/* Hero: large, centered, generous spacing */
+.hero{padding:80px 0;text-align:center}
+.hero h1{font-family:Merriweather,serif;font-size:3.2rem;margin:0 0 12px;font-weight:700}
+.hero p{max-width:720px;margin:0 auto;color:#415161;font-size:1.05rem}
+.cta{display:inline-block;background:transparent;color:var(--accent);border:2px solid var(--accent);padding:10px 18px;border-radius:999px;text-decoration:none;font-weight:600;margin-top:18px}
+.cta:hover{background:var(--accent);color:#fff}
+
+/* Projects grid: larger cards with subtle lift */
+.projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:28px;margin-top:36px}
+.card{background:#fff;border-radius:8px;padding:22px;border:1px solid rgba(10,18,28,0.06);box-shadow:0 6px 20px rgba(8,15,25,0.04);transition:transform .18s ease,box-shadow .18s ease}
+.card:hover{transform:translateY(-6px);box-shadow:0 14px 40px rgba(8,15,25,0.08)}
+.card h3{margin:0 0 10px;font-family:Merriweather,serif;font-size:1.15rem}
+.card p{margin:0;color:#536277}
+
+/* Footer: clean, muted, full-width */
+.site-footer{background:#0f1724;color:#e6eefb;padding:40px 0;margin-top:48px}
+.site-footer .wrapper{display:flex;gap:24px;align-items:flex-start;flex-wrap:wrap}
+.footer-col-1,.footer-col-2,.footer-col-3{min-width:220px}
+.footer-heading{margin:0 0 8px;font-weight:700}
+.site-footer a{color:inherit;text-decoration:underline}
+
+/* Section blocks for visual flow */
+main .page-content > .wrapper > section{padding:36px;border-radius:10px;margin-bottom:24px;background:transparent}
+main .page-content > .wrapper > section:nth-of-type(even){background:#ffffff}
+main .page-content > .wrapper > section.hero{background:transparent}
+
+/* Responsive header: hamburger on small screens */
+.site-nav{position:relative}
+.nav-trigger{display:none}
+.menu-icon{display:none;width:22px;height:22px;color:#fff}
+@media (max-width:820px){
+  .site-header .wrapper{justify-content:space-between;padding:12px 20px}
+  .site-nav .trigger{display:none;position:absolute;top:68px;right:20px;background:#fff;padding:12px;border-radius:10px;box-shadow:0 12px 30px rgba(2,6,23,0.12);flex-direction:column;min-width:180px}
+  .menu-icon{display:inline-block}
+  .page-link{color:var(--text)}
+  #nav-trigger:checked + label + .trigger{display:flex}
+}
+
+/* Utilities */
+.muted{color:#64748b}
