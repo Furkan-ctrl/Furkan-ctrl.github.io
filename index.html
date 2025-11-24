@@ -1,28 +1,125 @@
----
 layout: default
+title: Home
 ---
 
-
-<section class="hero">
-	<h1>Hi,I'm {{ site.title }}</h1>
-	<p class="muted">I build web experiences and small apps. Welcome to my portfolio — here are some highlights.</p>
-	<p><a class="cta" href="/projects/">View projects</a></p>
+<section class="hero" id="home">
+  <div class="hero__content">
+    <p class="eyebrow">Portfolio · Frontend Engineer</p>
+    <h1>Hi, I'm {{ site.title }}</h1>
+    <p class="lead">
+      I craft responsive web apps, thoughtful design systems, and human-centered
+      digital products. Every build leans on modular components, semantic HTML,
+      and polished interactions.
+    </p>
+    <div class="hero__cta">
+      <a class="cta" href="{{ '/projects/' | relative_url }}">View projects</a>
+      <button class="ghost" data-scroll="#about-snapshot" type="button">More about me</button>
+    </div>
+    <ul class="hero__status">
+      <li>
+        <span class="status__label">Experience</span>
+        <span class="status__value">5+ yrs building for the web</span>
+      </li>
+      <li>
+        <span class="status__label">Toolbox</span>
+        <span class="status__value">HTML · CSS · JS · React · Figma</span>
+      </li>
+      <li>
+        <span class="status__label">Currently</span>
+        <span class="status__value">Open for freelance UI work</span>
+      </li>
+    </ul>
+  </div>
+  <div class="hero__media">
+    <div class="photo-frame">
+      <img src="{{ '/assets/profile.svg' | relative_url }}" alt="Portrait of {{ site.title }}" loading="lazy">
+    </div>
+  </div>
 </section>
 
-<section>
-	<h2>My Projects</h2>
-	<div class="projects-grid">
-		<article class="card">
-			<h3>Project One</h3>
-			<p class="muted">Short description of the project. Link to details or external demo.</p>
-		</article>
-		<article class="card">
-			<h3>Project Two</h3>
-			<p class="muted">Short description of the project. Link to details or external demo.</p>
-		</article>
-		<article class="card">
-			<h3>Project Three</h3>
-			<p class="muted">Short description of the project. Link to details or external demo.</p>
-		</article>
-	</div>
+<section class="focus" id="focus">
+  <div class="section-heading">
+    <p class="eyebrow">What I do</p>
+    <h2>Product-minded frontend craft</h2>
+    <p class="muted">
+      From pixel-perfect marketing sites to data-rich web apps, I take projects
+      from wireframe to deployment with clean code, scalable CSS architecture,
+      and lightweight JavaScript enhancements.
+    </p>
+  </div>
+  <div class="pill-list">
+    <span class="pill">Responsive UI systems</span>
+    <span class="pill">Design-to-code workflows</span>
+    <span class="pill">Jamstack + Jekyll builds</span>
+    <span class="pill">Performance tuning</span>
+    <span class="pill">Accessibility first</span>
+  </div>
+</section>
+
+<section class="projects-preview" aria-labelledby="project-highlight-title">
+  <div class="section-heading">
+    <p class="eyebrow">Selected work</p>
+    <h2 id="project-highlight-title">A few recent highlights</h2>
+  </div>
+  <div class="projects-grid">
+    <article class="card">
+      <p class="card__eyebrow">Web App · 2024</p>
+      <h3>Insights Dashboard</h3>
+      <p class="muted">
+        Built a modular analytics dashboard with interactive charts, custom data
+        filters, and live collaboration powered by Firebase.
+      </p>
+      <a class="text-link" href="{{ '/projects/' | relative_url }}">See details</a>
+    </article>
+    <article class="card">
+      <p class="card__eyebrow">Marketing Site · 2023</p>
+      <h3>Product Launch Kit</h3>
+      <p class="muted">
+        Delivered a high-converting microsite with animation hooks and CMS
+        controls so non-dev teammates can ship updates quickly.
+      </p>
+      <a class="text-link" href="{{ '/projects/' | relative_url }}">See details</a>
+    </article>
+    <article class="card">
+      <p class="card__eyebrow">Design System · 2022</p>
+      <h3>Atlas UI Library</h3>
+      <p class="muted">
+        Partnered with design to ship a token-driven component library with
+        comprehensive documentation and Storybook demos.
+      </p>
+      <a class="text-link" href="{{ '/projects/' | relative_url }}">See details</a>
+    </article>
+  </div>
+</section>
+
+<section class="about-snapshot" id="about-snapshot">
+  <div class="split">
+    <div>
+      <p class="eyebrow">Background</p>
+      <h2>Developer with a design sensibility</h2>
+      <p class="muted">
+        I studied computer science, led student tech initiatives, and now
+        collaborate with startups to turn product ideas into polished web
+        experiences. I enjoy mentoring new developers and leading front-end
+        workshops through Codecademy communities.
+      </p>
+      <a class="text-link" href="{{ '/about/' | relative_url }}">Read my story</a>
+    </div>
+    <div>
+      <ul class="timeline">
+        <li>
+          <span class="timeline__year">2025</span>
+          <p>Launching fintech dashboards that consolidate real-time KPIs.</p>
+        </li>
+        <li>
+          <span class="timeline__year">2024</span>
+          <p>Facilitated 6 design-to-code workshops &amp; mentored 15 learners.</p>
+        </li>
+        <li>
+          <span class="timeline__year">2023</span>
+          <p>Graduated from ADA University, Information Technologies track.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
 </section>

@@ -1,20 +1,81 @@
----
 layout: default
 permalink: /about/
+title: About
 ---
 
+<section class="page-hero">
+  <p class="eyebrow">About me</p>
+  <h1>Crafting thoughtful, accessible web experiences</h1>
+  <p class="lead">
+    I am {{ site.title }}, a frontend developer who loves pairing strong visual
+    direction with maintainable code. My path blends human-centered design,
+    community teaching, and iterative product development.
+  </p>
+</section>
 
-<section>
-    <h1>About</h1>
-    <p class="muted">I am a developer focused on building clean, accessible web experiences. I work with HTML, CSS, and JavaScript and enjoy learning new tools and techniques.</p>
+<section class="about-grid">
+  <article>
+    <h2>Background</h2>
+    <p>
+      I studied Information Technologies at ADA University, where I explored
+      networks, UX methodologies, and advanced programming patterns. Those
+      projects taught me how to break down complex requirements, map user
+      journeys, and ship reliable code with limited resources.
+    </p>
+    <p>
+      After graduating, I partnered with early-stage startups to ship marketing
+      sites, internal dashboards, and component libraries. I enjoy collaborating
+      with design teams to ensure every layout feels intentional on any screen.
+    </p>
+  </article>
 
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML &amp; CSS</li>
-        <li>JavaScript / Frontend</li>
-        <li>Responsive design</li>
+  <article>
+    <h2>Conducted activities</h2>
+    <ul class="activity-list">
+      <li>
+        Led peer-led coding circles focused on semantic HTML, CSS architecture,
+        and responsive prototyping.
+      </li>
+      <li>
+        Facilitated Codecademy community workshops covering design systems,
+        Git-powered workflows, and accessibility testing.
+      </li>
+      <li>
+        Organized hackathon teams that built data visualizations and campus tools
+        benefiting student communities.
+      </li>
+      <li>
+        Mentored junior developers through code reviews, pair programming, and
+        public speaking practice.
+      </li>
     </ul>
+  </article>
+</section>
 
-    <h2>Contact</h2>
-    <p>Reach me at <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+<section class="split">
+  <div>
+    <h2>Skills focus</h2>
+    <ul class="stack-list">
+      <li><strong>Languages:</strong> HTML5, CSS3/Sass, TypeScript</li>
+      <li><strong>Libraries:</strong> React, Alpine.js, GSAP</li>
+      <li><strong>Tooling:</strong> Jekyll, Vite, Storybook, GitHub Actions</li>
+      <li><strong>Practices:</strong> Accessibility auditing, performance
+        profiling, component-driven development
+      </li>
+    </ul>
+  </div>
+  <div>
+    <h2>Beyond the code</h2>
+    <p>
+      I balance client projects with personal R&amp;D sprints—experimenting with
+      creative coding, motion design, and progressive enhancement techniques.
+      Outside of tech, I enjoy urban photography and sharing talks about mindful
+      productivity for makers.
+    </p>
+    <p>
+      If you'd like to collaborate, chat about front-end craft, or invite me to
+      a workshop, feel free to reach out:
+      <a class="text-link" href="mailto:{{ site.email }}">{{ site.email }}</a>.
+    </p>
+  </div>
 </section>

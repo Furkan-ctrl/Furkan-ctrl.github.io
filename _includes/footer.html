@@ -1,37 +1,35 @@
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ '/' | absolute_url }}"></data>
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">{{ site.title }}</li>
-          {% if site.email %}<li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>{% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li><a href="https://github.com/{{ site.github_username }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg' | relative_url }}#github"></use></svg> <span class="username">{{ site.github_username }}</span></a></li>
-          {% endif %}
-
-          {% if site.codecademy_url %}
-          <li><a href="{{ site.codecademy_url }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg' | relative_url }}#codecademy"></use></svg> <span class="username">Codecademy</span></a></li>
-          {% elsif site.codecademy_username %}
-          <li><a href="https://www.codecademy.com/users/{{ site.codecademy_username }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg' | relative_url }}#codecademy"></use></svg> <span class="username">Codecademy: {{ site.codecademy_username }}</span></a></li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
+  <div class="wrapper footer-wrapper">
+    <div>
+      <p class="eyebrow">Portfolio</p>
+      <h2 class="footer-heading">{{ site.title }}</h2>
+      <p class="muted">{{ site.description }}</p>
+      <p class="muted copyright">© <span data-year></span> {{ site.title }} · Crafted with HTML, CSS &amp; JS</p>
     </div>
 
-  </div>
+    <div class="footer-links">
+      <p class="eyebrow">Navigate</p>
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/about/' | relative_url }}">About</a>
+      <a href="{{ '/projects/' | relative_url }}">Projects</a>
+    </div>
 
+    <div class="footer-links">
+      <p class="eyebrow">Connect</p>
+      {% if site.github_username %}
+      <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>
+      {% endif %}
+      {% if site.codecademy_url %}
+      <a href="{{ site.codecademy_url }}" target="_blank" rel="noopener">Codecademy</a>
+      {% elsif site.codecademy_username %}
+      <a href="https://www.codecademy.com/users/{{ site.codecademy_username }}" target="_blank" rel="noopener">Codecademy</a>
+      {% endif %}
+      {% if site.email %}
+      <a href="mailto:{{ site.email }}">Email me</a>
+      {% endif %}
+    </div>
+  </div>
 </footer>
+
