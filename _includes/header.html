@@ -19,19 +19,7 @@
         {% if site.projects %}<a class="page-link" href="{{ '/projects/' | relative_url }}">Projects</a>{% endif %}
       </div>
 
-      <div class="header-social">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li class="social-link"><a href="https://github.com/{{ site.github_username }}" aria-label="GitHub"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg' | relative_url }}#github"></use></svg></a></li>
-          {% endif %}
-
-          {% if site.codecademy_url %}
-          <li class="social-link"><a href="{{ site.codecademy_url }}" aria-label="Codecademy"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg' | relative_url }}#codecademy"></use></svg></a></li>
-          {% elsif site.codecademy_username %}
-          <li class="social-link"><a href="https://www.codecademy.com/users/{{ site.codecademy_username }}" aria-label="Codecademy"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg' | relative_url }}#codecademy"></use></svg></a></li>
-          {% endif %}
-        </ul>
-      </div>
+      <!-- Header social icons removed (icons kept in footer only) -->
 
     </nav>
   </div>
