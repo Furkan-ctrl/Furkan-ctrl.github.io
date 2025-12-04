@@ -1,0 +1,36 @@
+<footer class="site-footer h-card">
+    <div class="wrapper">
+      <h2 class="footer-heading">{{ site.title | escape }}</h2>
+      <div class="footer-col-wrapper">
+        
+        <div class="footer-col footer-col-1">
+          <ul class="contact-list">
+            <li class="p-name">{{ site.title | escape }}</li>
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          </ul>
+        </div>
+  
+        <div class="footer-col footer-col-2">
+          <ul class="social-media-list">
+            {%- if site.github_username -%}
+            <li><a href="https://github.com/{{ site.github_username| CGI_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">{{ site.github_username | escape }}</span></a></li>
+            {%- endif -%}
+  
+            {%- if site.codecademy_username -%}
+            <li>
+              <a href="https://www.codecademy.com/profiles/{{ site.codecademy_username }}">
+                <svg class="svg-icon" style="width: 16px; height: 16px; fill: #828282;" viewBox="0 0 24 24"><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg>
+                <span class="username">Codecademy</span>
+              </a>
+            </li>
+            {%- endif -%}
+          </ul>
+        </div>
+  
+        <div class="footer-col footer-col-3">
+          <p>{{ site.description | escape }}</p>
+          <p><a href="https://github.com/{{ site.github_username }}/{{ site.github_username }}.github.io">View Source Code on GitHub</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
