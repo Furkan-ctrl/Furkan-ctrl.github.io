@@ -5,18 +5,18 @@ permalink: /about/
 ---
 
 <div style="text-align: center; margin-bottom: 2rem;">
-  <img src="/assets/profile.jpg" alt="Furkan Nagiyev" style="width: 200px; border-radius: 50%; border: 4px solid #2c3e50; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="/assets/profile.jpg" alt="Furkan Nagiyev" style="width: 200px; border-radius: 50%; border: 4px solid var(--accent-color); box-shadow: 0 4px 8px var(--shadow);">
 </div>
 
 ## Who I Am
 
-Hello! I'm **Furkan Nagiyev**, a dedicated student at ADA University, currently pursuing my degree in Information Technology. My journey into the world of tech began with a curiosity about how software shapes our daily lives. I am passionate about solving complex problems through code and am eager to apply my skills in real-world projects.
+Hello! I'm **Furkan Nagiyev**, a dedicated student at ADA University, currently pursuing my degree in Computer Science. My journey into the world of tech began with a curiosity about how software shapes our daily lives. I am passionate about solving complex problems through code and am eager to apply my skills in real-world projects.
 
 I believe in continuous learning and growth, always seeking new opportunities to expand my knowledge and contribute to meaningful projects. Whether it's developing web applications, participating in coding events, or volunteering for community initiatives, I'm always excited to take on new challenges.
 
 ## Education & Qualifications
 
-* **Current Studies:** Bachelor's in Information Technology at ADA University
+* **Current Studies:** Bachelor's in Computer Science at ADA University
 * **Course:** SITE 1101 - Web Development Fundamentals
 * **Focus Areas:** Web Development, Software Engineering, Problem Solving
 

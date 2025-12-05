@@ -130,6 +130,27 @@ body {
   text-align: center;
 }
 
+.home-intro {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.home-content {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin: 2rem 0;
+  text-align: left;
+}
+
+.home-text {
+  flex: 1;
+}
+
+.home-photo {
+  flex-shrink: 0;
+}
+
 .home img {
   margin: 2rem auto;
   display: block;
@@ -141,16 +162,67 @@ body {
   margin: 1.5rem 0;
 }
 
+/* Responsive home layout */
+@media (max-width: 768px) {
+  .home-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+  
+  .home-text {
+    text-align: center;
+  }
+  
+  .home-photo img {
+    margin: 0 auto;
+  }
+}
+
 /* Page Styles */
-.page h1, .page h2 {
+.post-header {
+  margin-bottom: 2rem;
+}
+
+.post-title {
+  color: var(--text-color);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.post-content {
+  color: var(--text-color);
+}
+
+.post-content h1, .post-content h2 {
   color: var(--text-color);
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
 
-.page h2 {
+.post-content h2 {
   border-bottom: 2px solid var(--accent-color);
   padding-bottom: 0.5rem;
+}
+
+.post-content h3 {
+  color: var(--accent-color);
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.post-content p {
+  margin: 1rem 0;
+  line-height: 1.7;
+}
+
+.post-content ul, .post-content ol {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+.post-content li {
+  margin: 0.5rem 0;
 }
 
 /* Links */
