@@ -5,6 +5,10 @@ title: Welcome
 
 <div class="home-intro">
   <div class="home-content">
+    <div class="home-photo">
+      <img src="/assets/profile.jpg" alt="Furkan's Profile Photo" width="200" style="border-radius: 50%; border: 4px solid var(--accent-color); box-shadow: 0 4px 12px var(--shadow);">
+    </div>
+    
     <div class="home-text">
       <h1 style="margin-top: 0; color: var(--text-color);">Hello! I'm Furkan Nagiyev</h1>
       
@@ -16,10 +20,6 @@ title: Welcome
         I'm developing this portfolio website to showcase my skills in <strong>HTML</strong>, <strong>CSS</strong>, and <strong>Jekyll</strong>. 
         This project has helped me learn how to use Git version control and deploy websites to the cloud.
       </p>
-    </div>
-    
-    <div class="home-photo">
-      <img src="/assets/profile.jpg" alt="Furkan's Profile Photo" width="200" style="border-radius: 50%; border: 4px solid var(--accent-color); box-shadow: 0 4px 12px var(--shadow);">
     </div>
   </div>
   
