@@ -2,7 +2,7 @@
 layout: home
 ---
 
-## Welcome to My Portfolio
+
 
 Hello! I am **Furkan**, a student in SITE 1101.
 
