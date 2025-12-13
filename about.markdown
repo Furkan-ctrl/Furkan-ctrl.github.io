@@ -35,7 +35,7 @@ I believe in continuous learning and growth, always seeking new opportunities to
 ## Activities & Involvement
 
 * **Hour of Code Event:** Participated as a volunteer, helping introduce programming concepts to students
-* **SIE Stand Volunteer:** Supported innovation and entrepreneurship initiatives at ADA University
+* **SIE Stand Volunteer:** Supported innovation and entrepreneurship initiatives at Study In Europe exhibition
 * **Portfolio Project:** Developed this personal portfolio website using Jekyll, demonstrating proficiency in static site generation and web deployment
 
 ## Interests & Hobbies
