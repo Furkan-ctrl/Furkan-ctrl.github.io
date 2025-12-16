@@ -12,7 +12,7 @@ Welcome to my projects portfolio! Here you'll find a collection of my work, incl
 
 <div class="project-card">
   <h3 style="margin-top: 0; color: var(--accent-color);">Logic Gates - Constructing Logic Gates</h3>
-  <p><strong>Description:</strong> A collaborative project focused on constructing and demonstrating various logic gates using breadboards and electronic components. This project involved building AND, OR, NOT, NAND,  XOR gates, understanding their functionality, and documenting their behavior.</p>
+  <p><strong>Description:</strong> A collaborative project focused on constructing and demonstrating various logic gates using breadboards and electronic components. This project involved building AND, OR, NOT, NAND, XOR gates, understanding their functionality, and documenting their behavior.</p>
   <p><strong>Technologies Used:</strong> Breadboards, Electronic Components, LEDs, Jumper Wires, Power Modules</p>
   <p><strong>Key Features:</strong></p>
   <ul>
@@ -52,6 +52,14 @@ Welcome to my projects portfolio! Here you'll find a collection of my work, incl
     <li>Version control workflow</li>
     <li>Dark mode support</li>
   </ul>
+  
+  <div class="project-images">
+    <div class="project-image-wrapper">
+      <img src="/assets/portfolio.jpg" alt="My Portfolio Website" class="project-image">
+      <p class="image-caption">The Main Homepage</p>
+    </div>
+  </div>
+
 </div>
 
 ### Volunteer Activities
@@ -61,6 +69,10 @@ Welcome to my projects portfolio! Here you'll find a collection of my work, incl
   <p><strong>Description:</strong> Participated in the Hour of Code event, helping to introduce programming concepts to students and promoting computer science education.</p>
   <p><strong>Role:</strong> Volunteer & Participant</p>
   <p><strong>Impact:</strong> Contributed to spreading awareness about coding and technology among students.</p>
+  
+  <div style="margin-top: 15px;">
+    <img src="/assets/Hour-of-code1.jpg" alt="Hour of Code Event" class="project-image">
+  </div>
 </div>
 
 <div class="activity-card">
@@ -73,20 +85,19 @@ Welcome to my projects portfolio! Here you'll find a collection of my work, incl
     <li>Engaging with visitors and participants</li>
     <li>Supporting innovation and entrepreneurship activities</li>
   </ul>
+
+  <div class="project-images" style="margin-top: 15px;">
+    <div class="project-image-wrapper">
+      <img src="/assets/SIE-volunteer.jpg" alt="SIE Stand Volunteer" class="project-image">
+      <p class="image-caption">Volunteering at the Stand</p>
+    </div>
+    <div class="project-image-wrapper">
+      <img src="/assets/code-cert.jpg" alt="Certificate" class="project-image">
+      <p class="image-caption">Certificate of Participation</p>
+    </div>
+  </div>
 </div>
 
 ---
 
-### Skills & Technologies
-
-Throughout my projects, I've worked with:
-
-- **Web Development:** HTML, CSS, Jekyll
-- **Programming:** Python
-- **Version Control:** Git, GitHub
-- **Research:** Academic research methodologies
-
----
-
 *More projects coming soon!*
-
