@@ -10,20 +10,21 @@ permalink: /about/
 
 ## Who I Am
 
-Hello! I'm **Furkan Nagiyev**, a dedicated student at ADA University, currently pursuing my degree in Computer Science. My journey into the world of tech began with a curiosity about how software shapes our daily lives. I am passionate about solving complex problems through code and am eager to apply my skills in real-world projects.
+Hello! I'm **Furkan Nagiyev**, a dedicated student at ADA University, currently pursuing my degree in **Computer Science**. My journey into the world of tech began with a curiosity about how software shapes our daily lives. I am passionate about solving complex problems through code and am eager to apply my skills in real-world projects.
 
 I believe in continuous learning and growth, always seeking new opportunities to expand my knowledge and contribute to meaningful projects. Whether it's developing web applications, participating in coding events, or volunteering for community initiatives, I'm always excited to take on new challenges.
 
-## Education & Qualifications
+## Education & Past Studies
 
 * **Current Studies:** Bachelor's in Computer Science at ADA University
-* **Course:** SITE 1101 - Web Development Fundamentals
-* **Focus Areas:** Web Development, Software Engineering, Problem Solving
+* **High School:** Turkish Diyanet Foundation Baku Turkish Lyceum (2019-2025)
+* **Secondary Education:** Secondary School No.2 (2014-2019)
+
 
 ## Technical Skills
 
 * **Web Technologies:** HTML, CSS, JavaScript, Jekyll
-* **Programming Languages:** Python
+* **Programming Languages:** Python, Java, C++
 * **Tools & Platforms:** Git, GitHub, GitHub Pages
 * **Other Skills:** Research, Technical Writing, Project Management
 
@@ -31,9 +32,12 @@ I believe in continuous learning and growth, always seeking new opportunities to
 
 * **Azerbaijani** (Native)
 * **English** (Fluent)
+* **Turkish** (High Level)
+* **Arabic** (Basic)
 
 ## Activities & Involvement
 
+* **Singapore and Asian Schools Math Olympiad (SASMO):** Silver Medalist
 * **Hour of Code Event:** Participated as a volunteer, helping introduce programming concepts to students
 * **SIE Stand Volunteer:** Supported innovation and entrepreneurship initiatives at Study In Europe exhibition
 * **Portfolio Project:** Developed this personal portfolio website using Jekyll, demonstrating proficiency in static site generation and web deployment
